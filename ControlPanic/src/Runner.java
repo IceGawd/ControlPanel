@@ -29,7 +29,7 @@ public class Runner {
 	private static final int delay = 17;
 	private Timer repaint = new Timer(delay, new ActionListener(){
 		public void actionPerformed(ActionEvent e) {
-			
+			panel.repaint();
 		}
 	});
 	

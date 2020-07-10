@@ -39,6 +39,7 @@ public class Keyboard implements KeyListener{
 		}
 		return ret;
 	}
+	
 	public int[] useKeys(KeyEvent e) {
 		String s = KeyEvent.getKeyText(e.getKeyCode());
 		int[] array = {0, 0, 0, 0};
